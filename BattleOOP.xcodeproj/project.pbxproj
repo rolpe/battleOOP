@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6947CF0B1C98C4E900EDDE97 /* soldierYell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF081C98C4E900EDDE97 /* soldierYell.wav */; };
+		6947CF0C1C98C4E900EDDE97 /* orcAttack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF091C98C4E900EDDE97 /* orcAttack.wav */; };
+		6947CF0D1C98C4E900EDDE97 /* orcRoar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF0A1C98C4E900EDDE97 /* orcRoar.wav */; };
+		6947CF0F1C98C4EF00EDDE97 /* soldierAttack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF0E1C98C4EF00EDDE97 /* soldierAttack.wav */; };
+		6947CF111C98C89600EDDE97 /* windsOfMight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF101C98C89600EDDE97 /* windsOfMight.mp3 */; };
+		6947CF131C98CD1700EDDE97 /* cheer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6947CF121C98CD1700EDDE97 /* cheer.wav */; };
 		69D4BF631C95DD6B00BFD2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF621C95DD6B00BFD2FD /* AppDelegate.swift */; };
 		69D4BF651C95DD6B00BFD2FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF641C95DD6B00BFD2FD /* ViewController.swift */; };
 		69D4BF681C95DD6B00BFD2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D4BF661C95DD6B00BFD2FD /* Main.storyboard */; };
 		69D4BF6A1C95DD6B00BFD2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D4BF691C95DD6B00BFD2FD /* Assets.xcassets */; };
 		69D4BF6D1C95DD6B00BFD2FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D4BF6B1C95DD6B00BFD2FD /* LaunchScreen.storyboard */; };
+		69D4BF751C95E22C00BFD2FD /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF741C95E22C00BFD2FD /* Character.swift */; };
+		69D4BF771C95E3BC00BFD2FD /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF761C95E3BC00BFD2FD /* Soldier.swift */; };
+		69D4BF791C95F17F00BFD2FD /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF781C95F17F00BFD2FD /* Orc.swift */; };
+		69D4BF7B1C96372D00BFD2FD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D4BF7A1C96372D00BFD2FD /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6947CF081C98C4E900EDDE97 /* soldierYell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soldierYell.wav; sourceTree = "<group>"; };
+		6947CF091C98C4E900EDDE97 /* orcAttack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orcAttack.wav; sourceTree = "<group>"; };
+		6947CF0A1C98C4E900EDDE97 /* orcRoar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orcRoar.wav; sourceTree = "<group>"; };
+		6947CF0E1C98C4EF00EDDE97 /* soldierAttack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soldierAttack.wav; sourceTree = "<group>"; };
+		6947CF101C98C89600EDDE97 /* windsOfMight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = windsOfMight.mp3; sourceTree = "<group>"; };
+		6947CF121C98CD1700EDDE97 /* cheer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cheer.wav; sourceTree = "<group>"; };
 		69D4BF5F1C95DD6B00BFD2FD /* BattleOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D4BF621C95DD6B00BFD2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69D4BF641C95DD6B00BFD2FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,10 @@
 		69D4BF691C95DD6B00BFD2FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D4BF6C1C95DD6B00BFD2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69D4BF6E1C95DD6B00BFD2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D4BF741C95E22C00BFD2FD /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		69D4BF761C95E3BC00BFD2FD /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		69D4BF781C95F17F00BFD2FD /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		69D4BF7A1C96372D00BFD2FD /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,16 @@
 				69D4BF691C95DD6B00BFD2FD /* Assets.xcassets */,
 				69D4BF6B1C95DD6B00BFD2FD /* LaunchScreen.storyboard */,
 				69D4BF6E1C95DD6B00BFD2FD /* Info.plist */,
+				69D4BF741C95E22C00BFD2FD /* Character.swift */,
+				69D4BF761C95E3BC00BFD2FD /* Soldier.swift */,
+				69D4BF781C95F17F00BFD2FD /* Orc.swift */,
+				69D4BF7A1C96372D00BFD2FD /* Game.swift */,
+				6947CF081C98C4E900EDDE97 /* soldierYell.wav */,
+				6947CF091C98C4E900EDDE97 /* orcAttack.wav */,
+				6947CF0A1C98C4E900EDDE97 /* orcRoar.wav */,
+				6947CF0E1C98C4EF00EDDE97 /* soldierAttack.wav */,
+				6947CF101C98C89600EDDE97 /* windsOfMight.mp3 */,
+				6947CF121C98CD1700EDDE97 /* cheer.wav */,
 			);
 			path = BattleOOP;
 			sourceTree = "<group>";
@@ -123,9 +153,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6947CF0B1C98C4E900EDDE97 /* soldierYell.wav in Resources */,
+				6947CF0D1C98C4E900EDDE97 /* orcRoar.wav in Resources */,
 				69D4BF6D1C95DD6B00BFD2FD /* LaunchScreen.storyboard in Resources */,
+				6947CF0C1C98C4E900EDDE97 /* orcAttack.wav in Resources */,
+				6947CF0F1C98C4EF00EDDE97 /* soldierAttack.wav in Resources */,
+				6947CF131C98CD1700EDDE97 /* cheer.wav in Resources */,
 				69D4BF6A1C95DD6B00BFD2FD /* Assets.xcassets in Resources */,
 				69D4BF681C95DD6B00BFD2FD /* Main.storyboard in Resources */,
+				6947CF111C98C89600EDDE97 /* windsOfMight.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D4BF751C95E22C00BFD2FD /* Character.swift in Sources */,
+				69D4BF7B1C96372D00BFD2FD /* Game.swift in Sources */,
 				69D4BF651C95DD6B00BFD2FD /* ViewController.swift in Sources */,
+				69D4BF771C95E3BC00BFD2FD /* Soldier.swift in Sources */,
+				69D4BF791C95F17F00BFD2FD /* Orc.swift in Sources */,
 				69D4BF631C95DD6B00BFD2FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +325,7 @@
 				69D4BF731C95DD6B00BFD2FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
